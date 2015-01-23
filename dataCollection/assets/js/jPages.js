@@ -14,10 +14,10 @@
       instance = null,
       defaults = {
         containerID: "",
-        first: false,
-        previous: "&#65513; previous",
-        next: "next &#65515;",
-        last: false,
+        first: true,
+        previous: " Previous",
+        next: "Next ",
+        last: true,
         links: "numeric", // blank || title
         startPage: 1,
         perPage: 30,

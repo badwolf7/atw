@@ -7,9 +7,6 @@ $.ajax({
 	jsonp: 'callback',
 	cache: true,
 	dataType: 'jsonp',
-	data: {
-		page: 1
-	},
 	success: function(res){
 		// response will be a js array of objects
 		console.log(res);
