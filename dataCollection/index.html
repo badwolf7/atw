@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>	
+	<!-- Title -->
+		<title>Arduino Data Collection</title>
+
+	<!-- CSS -->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/bootstrap/3.3.0/css/bootstrap.min.css">
+
+	<!-- Favicon -->
+		<link rel="shortcut icon" href="/assets/images/favicon.ico" type="image/x-icon">
+		<link rel="icon" href="/assets/images/favicon.ico" type="image/x-icon">
+
+	<!-- Fonts -->
+		<link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700' rel='stylesheet' type='text/css'>
+        
+	<!-- JavaScript -->
+		<script type="text/javascript" src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+		<script type="text/javascript" src="https://cdn.jsdelivr.net/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="assets/js/ajax.js"></script>
+	</head>
+	<body>
+		<div id="wrapper" class="wrapper col-xs-12">
+			<header class="upper">
+				<h1>Data Logging</h1>
+			</header>
+
+			<main class="col-xs-10 col-xs-offset-1">
+				<h2>Home Living Room Data</h2>
+				<div class="holder"></div>
+				<section class="col-xs-10 col-xs-offset-1">
+					<table class="table table-condensed table-hover table-striped">
+						<thead>
+							<th>Light</th>
+							<th>&deg;C</th>
+							<th>&deg;F</th>
+							<th>Timestamp</th>
+						</thead>
+						<tbody id="dataContainer">
+						</tbody>
+					</table>
+				</section>
+				<div class="holder"></div>
+			</main>
+
+		</div> <!-- wrapper -->
+
+		<!-- CSS -->
+		<link rel="stylesheet" href="assets/css/jPages.css">
+		<!-- <link rel="stylesheet" type="text/css" href="/assets/css/main.css"> -->
+
+		<!-- JAVASCRIPT -->
+		<script type="text/javascript" src="assets/js/jPages.min.js"></script>
+		<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
