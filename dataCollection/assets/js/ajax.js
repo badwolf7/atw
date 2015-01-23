@@ -14,7 +14,8 @@ $.ajax({
 		// response will be a js array of objects
 		console.log(res);
 		res.forEach(function(obj){
-			$('table tbody').append("<tr><td>"+obj.light+"</td><td>"+obj.temp_c+"</td><td>"+obj.temp_f+"</td><td>"+obj.timestamp+"</td></tr>");
+			var date = new Date(obj.timestamp);
+			$('table tbody').append("<tr><td>"+obj.light+"</td><td>"+obj.temp_c+"</td><td>"+obj.temp_f+"</td><td>"+date+"</td></tr>");
 		});
 	}
 });
