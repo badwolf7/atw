@@ -13,7 +13,7 @@ Using an ethernet shield, photoresistor, and a temperature sensor the Arduino wa
 
 ##### Project Code
 
-'''
+''' cpp
 <code>
 /*
 Light & Temperature Collection
