@@ -1,0 +1,44 @@
+body{
+	color: #1F1F20;
+	background: #FFFAFA;
+}
+header{
+	background: #DCE0E6;
+	padding: 20px 2%;
+}
+header h1{
+	margin: 0;
+}
+
+.holder{
+	margin: 25px 0 !important;
+}
+.holder a{
+	margin: 7px 5px !important;
+	padding: 15px 1.58% !important;
+	box-shadow: 0 1px 3px 0 rgba(31,31,32,.3) !important;
+	background: #FFFAFA !important;
+	-webkit-transition: all .25s ease;
+	   -moz-transition: all .25s ease;
+	    -ms-transition: all .25s ease;
+	     -o-transition: all .25s ease;
+	        transition: all .25s ease;
+}
+.holder a:hover{
+	text-decoration: none;
+	background: #1F1F20 !important;
+}
+
+table thead{
+	background: #2B4C7E;
+	color: #FFFAFA;
+}
+table thead th{
+	text-align: center;
+	border-left: 1px solid #FFFAFA;
+	border-right: 1px solid #FFFAFA;
+}
+table tbody tr td{
+	border-left: 1px solid rgba(31,31,32,.1);
+	border-right: 1px solid rgba(31,31,32,.1);
+}
