@@ -13,6 +13,7 @@ Using an ethernet shield, photoresistor, and a temperature sensor the Arduino wa
 
 ##### Project Code
 
+'''
 <code>
 /*
 Light & Temperature Collection
@@ -136,3 +137,4 @@ void tempRead(){
   tempF = (tempC * 9/5) + 32; // Fahrenheit
 }
 <code>
+'''
