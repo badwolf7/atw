@@ -14,7 +14,6 @@ Using an ethernet shield, photoresistor, and a temperature sensor the Arduino wa
 ##### Project Code
 
 ``` cpp
-<code>
 /*
 Light & Temperature Collection
 Holly Springsteen
@@ -136,5 +135,4 @@ void tempRead(){
   tempC = (voltage-0.5) * 100; // Celsius
   tempF = (tempC * 9/5) + 32; // Fahrenheit
 }
-<code>
 ```
