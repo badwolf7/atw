@@ -2,7 +2,9 @@
 **Advanced Topics in Web Programming 1501**
 ---
 **Holly Springsteen**
+
 [hollyspringsteen.com](https://hollyspringsteen.com)
+
 hhspringsteen@gmail.com
 
 ### Overview
