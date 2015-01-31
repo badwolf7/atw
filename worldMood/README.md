@@ -17,10 +17,8 @@ Using Xively, data.sparkfun.com or another similar service, you will need to col
 
 ### Project
 ---
-![Arduino Data Logger](http://res.cloudinary.com/hollyspringsteen/image/upload/v1422311577/20150126_155055_Richtone_HDR_xrqcwl.jpg "Arduino Data Logger")
----
 
-#### [Project Page >>](http://demondesigner.github.io/atw/dataCollection/)
+![Arduino Mood Lightr](http://res.cloudinary.com/hollyspringsteen/image/upload/v1422714192/20150131_092144_t9k5vy.jpg "Arduino Data Mood Light")
 
 ---
 How does the world feel? Well World Mood will let you know. Using an Ethernet Shield, Arduino Uno, and the ShiftBrite light World Mood displays the current mood of twitter based on keyword searches.
