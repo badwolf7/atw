@@ -33,6 +33,8 @@ How does the world feel? Well World Mood will let you know. Using an Ethernet Sh
 | Surprise   | Orange   |
 | Sad        | Blue     |
 
+## [Arduino Mood Light Video](http://youtu.be/UpPTy3b1hps)
+
 ##### Project Code
 ---
 ``` cpp
