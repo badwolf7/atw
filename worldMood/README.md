@@ -1,7 +1,7 @@
-# Arduino Data Logging
-
+# World Mood
 
 **Advanced Topics in Web Programming 1501**
+**Capstone Project**
 
 ---
 
